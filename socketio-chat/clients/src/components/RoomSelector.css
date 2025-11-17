@@ -1,0 +1,58 @@
+.room-selector {
+  padding: 20px;
+  border-bottom: 1px solid #34495e;
+}
+
+.room-selector h3 {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  color: #ecf0f1;
+}
+
+.rooms-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.room-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  background: none;
+  border: none;
+  color: #bdc3c7;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+  width: 100%;
+}
+
+.room-button:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ecf0f1;
+}
+
+.room-button.active {
+  background: #3498db;
+  color: white;
+}
+
+.room-icon {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.room-name {
+  flex: 1;
+  font-size: 14px;
+}
+
+.active-indicator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #2ecc71;
+}
